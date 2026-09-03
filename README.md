@@ -85,24 +85,6 @@ Con el entorno virtual activado:
 python main.py
 ```
 
-## 📦 Si quieres usar mediante ejecutable tienes que hacer lo siguiente
-
-El proyecto incluye el archivo `main.spec`, utilizado para definir la configuración de compilación con PyInstaller.
-
-Para generar el ejecutable:
-
-```bash
-pyinstaller main.spec
-```
-
-Los archivos generados aparecerán en:
-
-```text
-dist/
-```
-
-El directorio `build/` contiene archivos temporales generados durante el proceso de compilación y no forma parte del código fuente.
-
 ## 📋 Requisitos
 
 Se recomienda utilizar:

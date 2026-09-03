@@ -1,0 +1,9 @@
+{
+    "duration": 600,
+    "opacity": 0.9,
+    "palette": "Rosa",
+    "font_size": 32,
+    "show_hours": false,
+    "show_minutes": true,
+    "bg_image": "c:\\Proyectos\\Temporizador\\timer_assets\\saved_bg.png"
+}

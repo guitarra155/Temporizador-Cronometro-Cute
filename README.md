@@ -85,7 +85,7 @@ Con el entorno virtual activado:
 python main.py
 ```
 
-## 📦 Crear el ejecutable
+## 📦 Si quieres usar mediante ejecutable tienes que hacer lo siguiente
 
 El proyecto incluye el archivo `main.spec`, utilizado para definir la configuración de compilación con PyInstaller.
 
@@ -103,51 +103,6 @@ dist/
 
 El directorio `build/` contiene archivos temporales generados durante el proceso de compilación y no forma parte del código fuente.
 
-## ⚙️ Configuración
-
-La configuración de la aplicación se encuentra en:
-
-```text
-config.json
-```
-
-Este archivo permite mantener determinadas preferencias de la aplicación entre ejecuciones.
-
-Si modificas su estructura, asegúrate de mantener la compatibilidad con el código de `main.py`.
-
-## 🎹 Atajos de teclado
-
-Los atajos disponibles y su configuración dependen de la configuración actual de la aplicación.
-
-Puedes personalizarlos desde la configuración de la aplicación y mantenerlos almacenados en `config.json`.
-
-## 🖼️ Recursos
-
-Los recursos utilizados por la interfaz se encuentran en:
-
-```text
-timer_assets/
-```
-
-El icono de la aplicación se encuentra en:
-
-```text
-reloj.ico
-```
-
-## 🔒 Archivos ignorados
-
-El repositorio no incluye archivos generados o específicos del entorno de desarrollo, como:
-
-```text
-.venv/
-build/
-dist/
-__pycache__/
-```
-
-Estos archivos se generan localmente cuando son necesarios.
-
 ## 📋 Requisitos
 
 Se recomienda utilizar:
@@ -163,44 +118,14 @@ Las dependencias adicionales se encuentran en:
 requirements.txt
 ```
 
-## 🧑‍💻 Desarrollo
-
-Para trabajar sobre el proyecto:
-
-```bash
-git clone https://github.com/guitarra155/Temporizador-Cronometro-Cute.git
-cd Temporizador-Cronometro-Cute
-
-python -m venv .venv
-```
-
-Activar el entorno virtual e instalar las dependencias:
-
-```bash
-pip install -r requirements.txt
-```
-
-Ejecutar:
-
-```bash
-python main.py
-```
-
 ## 📌 Estado del proyecto
 
 🚧 **En desarrollo**
 
 El proyecto puede recibir modificaciones relacionadas con la interfaz, configuración, funcionamiento del temporizador y nuevas funcionalidades.
 
-## 📄 Licencia
 
-La licencia del proyecto aún no está definida.
-
-Si posteriormente se decide publicar el proyecto bajo una licencia de código abierto, se recomienda añadir el archivo `LICENSE` correspondiente al repositorio.
-
-## 👤 Autor
-
-**Guitarra Jhon**
+**guitarra155**
 
 GitHub:
 https://github.com/guitarra155
